@@ -3,5 +3,6 @@
 {{outlet}}
 {{#link-to 'about'}}abouts{{/link-to}}
 
-<textarea style="/*resize: none;*/">{{parse-document model.content}}</textarea>
+{{!-- <textarea style="/*resize: none;*/">{{parse-document model.content}}</textarea> --}}
 {{!-- {{textarea value=model.content style="resize: none;"}} --}}
+{{parse-document model.content}}

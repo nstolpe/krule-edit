@@ -1,0 +1,5 @@
+html { font-size: 4vmin; }
+textarea {
+	font-size: 1em;
+	display: block;
+}
