@@ -1,5 +1,12 @@
 html { font-size: 4vmin; }
-textarea {
+.content_wrapper {
+	border: solid;
+	border-width: 0.5vmin;
+	margin: 0.5vmin 0;
+}
+.content {
 	font-size: 1em;
 	display: block;
+	white-space: pre-wrap;
+	margin: 0;
 }

@@ -7,9 +7,10 @@ export default Ember.Route.extend({
   	// return this.store.find('project', 1);
   	// return {"content": "This right here is content."};
     return {
-    	"content": [
+    	"content": 
+            [
     	    		[
-    	    			"This is the first section. It has subsections. This text is not inside a subsection.",
+    	    			"This is the first section. It has subsections. This text is not inside a subsection.\nBreak test.",
     	    			[
     	    				"This is the first subsection of the first section.",
     	    				"This is the second.",
