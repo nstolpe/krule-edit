@@ -3,6 +3,7 @@
 {{outlet}}
 {{#link-to 'about'}}abouts{{/link-to}}
 
-{{!-- <textarea style="/*resize: none;*/">{{parse-document model.content}}</textarea> --}}
-{{!-- {{textarea value=model.content style="resize: none;"}} --}}
+{{!-- call below is using a helper. it should probably go to the view. --}}
+{{#view 'text'}}
 {{parse-document model.content}}
+{{/view}}
