@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 // use this to build the text fields and separators you'll need.
-// this can probably be moved to the view.
+// This should probably be refactored to be a class. See: http://guides.emberjs.com/v1.12.0/object-model/classes-and-instances/
 export default Ember.Handlebars.makeBoundHelper(function(content,options) {
 	var outputContainer = Ember.$('<div id="output_container"></div>'),
 		levels = ['blue', 'red', 'green'];

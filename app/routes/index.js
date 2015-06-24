@@ -7,6 +7,7 @@ export default Ember.Route.extend({
   	// return this.store.find('project', 1);
   	// return {"content": "This right here is content."};
     return {
+      "title": "test-doc",
     	"content": 
             [
     	    		[
